@@ -11,9 +11,6 @@ hexInput.addEventListener(
         if(!isValidHex(hex)) return null
         const strippedHex = hex.replace('#','')
         inputColor.style.background = `#${strippedHex}`
-        // if(convertHexToRGB(hex)) return null
-        // const rgbColor = hex.replace('#', '')
-        // alteredColor.style.background = ${rgbColor}
     }
 )
 
